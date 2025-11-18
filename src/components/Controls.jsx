@@ -80,7 +80,11 @@ const Controls = ({
                     )}
                 </Button>   
 
-                <Button>
+                <Button
+                    onClick={onReset}
+                    variant="outline"
+                    className="w-32 bg-slate-800/50 border-slate-700 hover:bg-slate-700 hover:border-red-500"
+                >
                     <RotateCcw className="w-4 h-4 mr-2 text-red-400" />
                     <span className="text-red-400">Reset</span>
                 </Button>
