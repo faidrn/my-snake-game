@@ -178,10 +178,10 @@ function App() {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
       <div className="w-full max-w-4xl">
         <div className="text-center mb-8">
-          <h1 className="text-6xl mb-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-600">
+          <h1 className="text-6xl mb-2 text-transparent bg-clip-text bg-linear-to-r from-green-400 to-emerald-600">
             SNAKE
           </h1>
           <p className="text-slate-400">
@@ -193,8 +193,8 @@ function App() {
           <GameStats score={score} highScore={highScore} isPaused={isPaused} gameOver={gameOver} />
 
           <div className="flex flex-col gap-4">
-            <GameBoard snake={snake} food={food} gridSize={GRID_SIZE} />
-            <GameControls
+            <Board snake={snake} food={food} gridSize={GRID_SIZE} />
+            <Controls
               onDirectionChange={handleDirectionChange}
               onPause={togglePause}
               onReset={resetGame}
