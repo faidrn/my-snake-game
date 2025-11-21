@@ -1,16 +1,99 @@
-# React + Vite
+<div align="center"> 
+    <img src="public/snake-logo.png" alt="Snake Logo" width="120" /> 
+    <h1><strong>My Snake Game</strong></h1> 
+    <p>A modern Snake game built with React, Vite and TailwindCSS.</p> 
+    <img src="https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/Vite-5-646cff?style=for-the-badge&logo=vite&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/TailwindCSS-3-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/License-MIT-000000?style=for-the-badge" /> 
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🐍 About the Project
 
-Currently, two official plugins are available:
+My Snake Game is a modern remake of the classic Snake game, inspired by a Figma UI design and styled with TailwindCSS. It features smooth movement, clean UI, and high modularity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
++ Perfect for learning:
++ React state management
++ Game loop with intervals
++ Keyboard event handling
++ Modern UI with Tailwind
++ Component-driven development
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
++ ⚛️ React.js (JSX)
++ ⚡ Vite
++ 🎨 TailwindCSS
++ 🔁 Custom Hooks
++ 🧮 Plain JavaScript utilities
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+```
+my-snake-game/
+│
+├── public/
+│   ├── favicon.ico
+│   └── snake-logo.png
+│
+├── src/
+│   ├── assets/
+│   │   └── …
+│   │
+│   ├── components/
+│   │   ├── Board.jsx
+│   │   ├── Controls.jsx
+│   │   ├── GameOverModal.jsx
+│   │   ├── GameStats.jsx
+│   │   └── ui/
+│   │       ├── Button.jsx
+│   │       └── utils.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎮 Controls
+
+| Key | Action |
+|-----------|--------|
+| **Arrow Up** | Move up |
+| **Arrow Down** | Move down |
+| **Arrow Left** | Move left |
+| **Arrow Right** | Move right |
+
+## ▶️ Install and Run
+
+```
+git clone https://github.com/faidrn/my-snake-game
+cd my-snake-game
+npm install
+npm run dev
+```
+
+## 🧭 Roadmap
+
+- [x]  Snake movement
+- [x]  Collision detection
+- [x]  TailwindCSS UI
+- [ ]  Sound effects
+- [ ] Food and death animations
+- [ ] Dark mode
+- [ ] Snake skins
+- [ ] Level system
+
+
+ ## 🤝 Contributing
+
+PRs are welcome!
+Feel free to improve visuals, optimize logic, or add new features.
+
+## 📄 License
+
+Licensed under the MIT License.
