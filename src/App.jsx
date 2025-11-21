@@ -185,7 +185,7 @@ function App() {
             SNAKE
           </h1>
           <p className="text-slate-400">
-            {isPaused && !gameOver ? 'Presiona cualquier tecla para comenzar' : ''}
+            {isPaused && !gameOver ? 'Press any key to start' : ''}
           </p>
         </div>
 
@@ -205,7 +205,7 @@ function App() {
         </div>
 
         <div className="mt-8 text-center text-slate-400 text-sm">
-          <p>Usa las flechas o WASD para moverte • Espacio para pausar</p>
+          <p>Use the arrow keys or WASD to move • Press Space to pause</p>
         </div>
       </div>
 

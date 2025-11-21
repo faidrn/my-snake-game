@@ -10,7 +10,7 @@ const Board = ({ snake, food, gridSize }) => {
   return (
     <div className="relative bg-slate-800/50 backdrop-blur-sm rounded-2xl p-4 shadow-2xl border border-slate-700/50">
       <div
-        className="grid gap-[2px] bg-slate-900/30 rounded-xl p-2"
+        className="grid gap-0.5 bg-slate-900/30 rounded-xl p-2"
         style={{
           gridTemplateColumns: `repeat(${gridSize}, 1fr)`,
           width: 'min(600px, 90vw)',

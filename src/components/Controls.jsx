@@ -63,12 +63,12 @@ const Controls = ({
           {isPaused ? (
             <>
               <Play className="w-4 h-4 mr-2 text-purple-400" />
-              <span className="text-purple-400">Jugar</span>
+              <span className="text-purple-400">Play</span>
             </>
           ) : (
             <>
               <Pause className="w-4 h-4 mr-2 text-purple-400" />
-              <span className="text-purple-400">Pausar</span>
+              <span className="text-purple-400">Pause</span>
             </>
           )}
         </Button>
@@ -79,7 +79,7 @@ const Controls = ({
           className="w-32 bg-slate-800/50 border-slate-700 hover:bg-slate-700 hover:border-red-500"
         >
           <RotateCcw className="w-4 h-4 mr-2 text-red-400" />
-          <span className="text-red-400">Reiniciar</span>
+          <span className="text-red-400">Reset</span>
         </Button>
       </div>
     </div>

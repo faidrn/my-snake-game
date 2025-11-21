@@ -16,7 +16,7 @@ const GameOverModal = ({ score, highScore, onRestart }) => {
             {isNewHighScore && (
               <div className="flex items-center justify-center gap-2 text-yellow-400 animate-pulse">
                 <Trophy className="w-5 h-5" />
-                <span>¡Nuevo Récord!</span>
+                <span>¡New record!</span>
                 <Trophy className="w-5 h-5" />
               </div>
             )}
@@ -24,12 +24,12 @@ const GameOverModal = ({ score, highScore, onRestart }) => {
 
           <div className="space-y-4 mb-8">
             <div className="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
-              <div className="text-slate-400 mb-1">Tu Puntuación</div>
+              <div className="text-slate-400 mb-1">Your Score</div>
               <div className="text-4xl text-green-400">{score}</div>
             </div>
 
             <div className="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
-              <div className="text-slate-400 mb-1">Mejor Puntuación</div>
+              <div className="text-slate-400 mb-1">High Score</div>
               <div className="text-4xl text-yellow-400">{highScore}</div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const GameOverModal = ({ score, highScore, onRestart }) => {
             size="lg"
           >
             <RotateCcw className="w-5 h-5 mr-2" />
-            Jugar de Nuevo
+            Play Again
           </Button>
         </div>
       </div>
