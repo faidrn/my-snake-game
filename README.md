@@ -10,7 +10,7 @@
 
 ## 🐍 About the Project
 
-My Snake Game is a modern remake of the classic Snake game, inspired by a Figma UI design and styled with TailwindCSS. It features smooth movement, clean UI, and high modularity.
+My Snake Game is a modern remake of the classic Snake game. It features smooth movement, clean UI, and high modularity.
 
 + Perfect for learning:
 + React state management
